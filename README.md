@@ -1,6 +1,3 @@
-# Philip Todd
-**Technology Leader | Senior Developer**
-
 📍 Sydney, NSW  
 📧 philip.todd@gmail.com  
 📞 0448 856 706  

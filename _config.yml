@@ -1,8 +1,9 @@
 title: Philip Todd
-description: Technology Leader | Seior Developer
+description: Technology Leader | Senior Developer | Software Engineering
+url: https://philiptodd.github.io
 author: Philip Todd
 
-theme: minima
+theme: jekyll-theme-cayman
 
 markdown: kramdown
 
@@ -11,3 +12,4 @@ plugins:
   - jekyll-seo-tag
 
 github_username: philiptodd
+linkedin_username: philiptodd

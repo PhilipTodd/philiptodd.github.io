@@ -51,4 +51,4 @@ https://github.com/philiptodd/azure-distributed-systems-reference
 ## Contact
 
 GitHub: https://github.com/philiptodd  
-LinkedIn: https://linkedin.com/in/philiptodd
+LinkedIn: https://linkedin.com/in/philiptoddau

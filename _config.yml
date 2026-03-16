@@ -1,0 +1,13 @@
+title: Philip Todd
+description: Head of Technology | Software Development Manager
+author: Philip Todd
+
+theme: minima
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+github_username: philiptodd

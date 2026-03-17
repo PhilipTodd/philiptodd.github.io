@@ -5,50 +5,26 @@ title: Home
 
 # Philip Todd
 
-Technology Lader | Senior Developer
-Cloud Architect | Azure | Distributed Systems
+**Technology Leader | Senior Developer | Azure**
+
+I design and deliver cloud-native platforms, SaaS systems, and distributed architectures.
 
 ---
 
-## About
-
-Technology leader with 15+ years building cloud platforms, SaaS products, and distributed systems.
-
-I specialise in:
+## What I Do
 
 - Azure cloud architecture
-- Platform engineering
-- API design
-- DevOps and CI/CD
-- SaaS product development
+- Microservices & distributed systems
+- API design & integrations
+- DevOps & CI/CD
+- SaaS product engineering
 
 ---
 
-## Featured Projects
+## Featured Work
 
-### Azure Distributed Systems Reference
-
-Reference microservices architecture built with:
-
-- Azure Container Apps
-- .NET microservices
-- Service Bus
-- Event-driven architecture
-
-GitHub:  
-https://github.com/philiptodd/azure-distributed-systems-reference
-
----
-
-## Writing
-
-- Building Microservices on Azure Container Apps
-- Event Driven Architectures with Service Bus
-- CI/CD for Cloud Native Systems
-
----
-
-## Contact
-
-GitHub: https://github.com/philiptodd  
-LinkedIn: https://linkedin.com/in/philiptoddau
+<div class="card">
+<h3>Azure Distributed Systems Reference</h3>
+<p>Production-style microservices architecture using Azure Container Apps and Service Bus.</p>
+<a href="https://github.com/philiptodd/azure-distributed-systems-reference">View Project →</a>
+</div>

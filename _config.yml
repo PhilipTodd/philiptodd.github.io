@@ -1,15 +1,8 @@
 title: Philip Todd
-description: Technology Leader | Senior Developer | Software Engineering
+description: Technology Leader | Cloud Architect | Azure
 url: https://philiptodd.github.io
-author: Philip Todd
-
-theme: jekyll-theme-cayman
 
 markdown: kramdown
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
-
-github_username: philiptodd
-linkedin_username: philiptodd

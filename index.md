@@ -5,7 +5,7 @@ title: Home
 
 # Philip Todd
 
-**Technology Leader | Senior Developer | Azure**
+** Technology Leader | Senior Developer | Azure **
 
 I design and deliver cloud-native platforms, SaaS systems, and distributed architectures.
 

@@ -1,22 +1,13 @@
 ---
-layout: page
+layout: default
 title: Projects
 ---
 
 # Projects
 
-## Azure Distributed Systems Reference
-
-A production-style microservices architecture designed as a learning and reference system.
-
-Technologies:
-
-- Azure Container Apps
-- .NET
-- Service Bus
-- Event-driven architecture
-- GitHub Actions CI/CD
-
-Repository:
-
-https://github.com/philiptodd/azure-distributed-systems-reference
+<div class="card">
+<h3>Azure Distributed Systems Reference</h3>
+<p>Microservices architecture with event-driven design.</p>
+<p><strong>Tech:</strong> .NET, Azure, Service Bus, Container Apps</p>
+<a href="https://github.com/philiptodd/azure-distributed-systems-reference">View on GitHub →</a>
+</div>

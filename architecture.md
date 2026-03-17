@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Architecture
 ---
 
@@ -7,19 +7,15 @@ title: Architecture
 
 ## Microservices Reference Architecture
 
-Example distributed system architecture built with Azure.
-
-Components:
-
 - API Gateway
-- Microservices
-- Event Bus
-- Databases per service
+- Microservices per domain
+- Event-driven messaging (Service Bus)
+- Independent databases
 - Containerised deployment
 
-Design principles:
+### Design Principles
 
-- Event driven architecture
 - Loose coupling
-- Independent scaling
+- Scalability
 - Observability
+- Resilience

@@ -3,33 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | Philip Todd</title>
+
+  <title> 
+    {% if page.title %} 
+      {{ page.title }} | Philip Todd 
+    {% else %} 
+      Philip Todd | Senior Software Engineer 
+    {% endif %} 
+  </title>
+  
+  <meta name="description" content="Philip Todd - Senior Software Engineer, Azure Cloud Architect and Technical Leader specialising in .NET, Azure, distributed systems and modern software delivery.">
+  
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 
 <body>
-
-<header class="nav">
-  <div class="container">
-    <h1 class="logo">Philip Todd</h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/projects">Projects</a>
-      <a href="/architecture">Architecture</a>
-      <a href="https://github.com/philiptodd" target="_blank">GitHub</a>
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-  {{ content }}
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <p>© 2026 Philip Todd</p>
-  </div>
-</footer>
-
+   <header>
+      <div class="container">
+         <div class="site-header">
+            <div>
+               <div class="brand"> Philip Todd </div>
+               <div class="tagline"> Senior Software Engineer | Azure Cloud Architect | Technical Leader </div>
+            </div>
+            <nav> <a href="/">Home</a> <a href="/about">About</a> <a href="/projects">Projects</a> <a href="/architecture">Architecture</a> <a href="/github">GitHub</a> <a href="/resume">Resume</a> <a href="/contact">Connect</a> </nav>
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="container"> {{ content }} </div>
+   </main>
+   <footer>
+      <div class="container">
+         <strong>Philip Todd</strong><br> Senior Software Engineer | Azure Cloud Architect | Technical Leader 
+         <div class="footer-links" style="margin-top:15px;"> <a href="https://github.com/philiptodd">GitHub</a> <a href="https://linkedin.com/in/philiptodd">LinkedIn</a> <a href="mailto:philip.todd@gmail.com">Email</a> </div>
+         <p style="margin-top:20px;"> © {{ site.time | date: '%Y' }} Philip Todd. All rights reserved. </p>
+      </div>
+   </footer>
 </body>
 </html>

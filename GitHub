@@ -1,0 +1,244 @@
+---
+layout: default
+title: Projects
+---
+
+# GitHub
+
+## Public Repositories
+
+My GitHub repositories contain reference projects, architecture examples, infrastructure-as-code solutions, and practical demonstrations of modern software engineering practices.
+
+The goal of these repositories is to showcase real-world approaches to designing, building, deploying, and operating cloud-native applications using the Microsoft technology stack.
+
+**GitHub Profile**
+
+https://github.com/philiptodd
+
+---
+
+# Featured Repositories
+
+## Azure Distributed Systems Reference
+
+A cloud-native distributed systems reference platform demonstrating modern Azure architecture patterns.
+
+### Highlights
+
+* .NET 10 microservices
+* Azure Container Apps
+* Azure Service Bus
+* Azure SQL
+* Microsoft Entra ID
+* Azure DevOps CI/CD
+* Bicep Infrastructure as Code
+* Application Insights
+
+### Demonstrates
+
+* Service decomposition
+* API Gateway pattern
+* Event-driven integration
+* Infrastructure automation
+* Cloud-native deployment
+* Monitoring and observability
+
+### Repository
+
+https://github.com/philiptodd/azure-distributed-systems-reference
+
+---
+
+## Event Sourcing Reference Platform
+
+An event-sourced enterprise application demonstrating CQRS, event sourcing, and distributed system design.
+
+### Highlights
+
+* Event Sourcing
+* CQRS
+* Domain-Driven Design
+* Cosmos DB Event Store
+* Azure SQL Read Models
+* Azure Service Bus
+* Angular Front-End
+* Azure DevOps
+
+### Demonstrates
+
+* Event modelling
+* Aggregate design
+* Projection processing
+* Read model synchronisation
+* Asynchronous messaging
+* Cloud deployment using Azure PaaS
+
+### Repository
+
+https://github.com/philiptodd/blastiq-event-sourcing-reference
+
+---
+
+# Architecture and Design
+
+Many repositories include architecture documentation beyond source code.
+
+### Documentation Includes
+
+* System Context Diagrams
+* Container Diagrams
+* Deployment Diagrams
+* Dynamic Flow Diagrams
+* Architecture Decision Records (ADRs)
+* Infrastructure Documentation
+
+### Tools
+
+* Structurizr DSL
+* C4 Model
+* Markdown Documentation
+* Azure Architecture Diagrams
+
+---
+
+# Infrastructure as Code
+
+Infrastructure is managed using Infrastructure as Code principles to ensure consistency, repeatability, and automation.
+
+### Technologies
+
+* Bicep
+* ARM Templates
+* Azure Resource Manager
+* Azure DevOps Pipelines
+
+### Areas Covered
+
+* Azure App Services
+* Azure Container Apps
+* Azure SQL
+* Cosmos DB
+* Service Bus
+* Storage Accounts
+* Monitoring and Observability
+
+---
+
+# CI/CD and DevOps
+
+Repositories demonstrate modern software delivery practices.
+
+### Practices
+
+* Continuous Integration
+* Continuous Delivery
+* Automated Testing
+* Infrastructure Deployment
+* Environment Promotion
+* Deployment Validation
+
+### Tooling
+
+* Azure DevOps
+* GitHub Actions
+* Bicep
+* Docker
+
+---
+
+# Technical Areas of Interest
+
+My repositories are focused on several key areas of software engineering:
+
+## Cloud-Native Applications
+
+Applications designed to take advantage of Azure platform services and modern deployment models.
+
+## Distributed Systems
+
+Systems composed of independently deployable services communicating through APIs and messaging.
+
+## Event-Driven Architecture
+
+Architectures that use asynchronous messaging and events to improve scalability and resilience.
+
+## Event Sourcing and CQRS
+
+Systems that use business events as the source of truth while maintaining optimised read models.
+
+## Platform Engineering and DevOps
+
+Automation, deployment pipelines, infrastructure management, and operational excellence.
+
+## AI-Assisted Development
+
+Exploring practical uses of AI to improve software delivery and engineering productivity.
+
+---
+
+# Repository Standards
+
+The reference repositories follow a consistent set of engineering practices.
+
+### Source Control
+
+* Git-based workflows
+* Pull request reviews
+* Branching strategies
+* Version control best practices
+
+### Code Quality
+
+* Clean architecture principles
+* Separation of concerns
+* Consistent coding standards
+* Automated validation
+
+### Documentation
+
+* Architecture documentation
+* ADRs
+* Setup instructions
+* Deployment guidance
+
+### Operations
+
+* Logging
+* Monitoring
+* Health checks
+* Observability
+
+---
+
+# Why Public Reference Projects?
+
+I believe the best way to demonstrate engineering capability is through working software.
+
+These repositories provide practical examples of:
+
+* System design
+* Architecture decisions
+* Software implementation
+* Cloud deployment
+* DevOps practices
+* Technical communication
+
+Rather than describing how systems should be built, the repositories demonstrate how they are built.
+
+---
+
+# Current Development
+
+The repositories are actively evolving as new features, patterns, and technologies are explored.
+
+Future additions will include:
+
+* Additional architecture examples
+* Advanced Azure integrations
+* Expanded observability solutions
+* AI-enabled capabilities
+* Additional reference implementations
+
+---
+
+> Source code is only part of software engineering. Architecture, automation, deployment, observability, and maintainability are equally important. These repositories aim to demonstrate the complete engineering lifecycle.

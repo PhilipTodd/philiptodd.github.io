@@ -2,7 +2,6 @@
 layout: default
 title: Architecture
 ---
-
 # Architecture
 
 ## Overview

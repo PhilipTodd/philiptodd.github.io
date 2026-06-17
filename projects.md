@@ -2,7 +2,6 @@
 layout: default
 title: Projects
 ---
-
 # Projects
 
 ## Reference Projects

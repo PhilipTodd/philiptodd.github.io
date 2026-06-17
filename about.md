@@ -2,7 +2,6 @@
 layout: default
 title: About
 ---
-
 # About
 
 ## Philip Todd

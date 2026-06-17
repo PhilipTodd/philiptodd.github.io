@@ -5,20 +5,13 @@ title: About
 
 # About Me
 
-I am a technology leader and software architect with experience delivering cloud-native platforms across enterprise and SaaS environments.
+I have spent the last 25 years delivering software solutions across SaaS, IoT, enterprise platforms and cloud-native applications. After several years leading engineering teams, my current focus is on hands-on software engineering, solution architecture and Azure-based distributed systems.
 
 My background includes:
 
-- Leading engineering teams
-- Designing distributed systems
-- Building Azure-based SaaS platforms
-- Developing enterprise integrations and APIs
+- 25 years software engineering
+- Azure and Microsoft stack
+- Leadership experience
+- Returning to hands-on engineering
+- Interest in cloud-native systems and AI
 
-Technologies I frequently work with:
-
-- Azure
-- .NET
-- Kubernetes
-- Docker
-- Angular
-- SQL / CosmosDB

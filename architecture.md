@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Architecture
-permalink: /resume/
+permalink: /architecture/
 ---
 
 # Architecture

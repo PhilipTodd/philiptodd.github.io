@@ -1,7 +1,9 @@
 ---
 layout: default
 title: GitHub
+permalink: /github/
 ---
+
 # GitHub
 
 ## Public Repositories

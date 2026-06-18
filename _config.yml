@@ -1,8 +1,17 @@
 title: Philip Todd
-description: Technology Leader | Cloud Architect | Azure
-url: https://philiptodd.github.io
-permalink: pretty
-markdown: kramdown
+description: Senior Software Engineer | Azure Cloud Architect | Technical Leader
+
+theme: jekyll-theme-primer
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+markdown: kramdown
+
+exclude:
+  - README.md

@@ -13,9 +13,9 @@ permalink: /resume/
 
 Sydney, Australia
 
-**LinkedIn:** https://linkedin.com/in/philiptodd
-**GitHub:** https://github.com/philiptodd
-**Website:** https://ausdatatech.com.au
+* **LinkedIn:** https://linkedin.com/in/philiptoddau
+* **GitHub:** https://github.com/philiptodd
+* **Website:** https://ausdatatech.com.au
 
 ---
 

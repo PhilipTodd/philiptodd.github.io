@@ -14,7 +14,7 @@ The goal of these repositories is to showcase real-world approaches to designing
 
 **GitHub Profile**
 
-https://github.com/philiptodd
+* https://github.com/philiptodd
 
 ---
 

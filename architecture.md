@@ -87,7 +87,7 @@ This approach enables:
 
 ### Typical Flow
 
-```text
+```
 User Action
     ↓
 Command
@@ -99,3 +99,4 @@ Domain Event
 Message Broker
     ↓
 Subscribers
+```

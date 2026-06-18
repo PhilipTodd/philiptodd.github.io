@@ -136,14 +136,5 @@ These projects showcase practical, production-oriented approaches to building an
 
 ---
 
-## Connect
-
-**LinkedIn:** https://linkedin.com/in/philiptodd
-
-**GitHub:** https://github.com/philiptodd
-
-**Email:** [philip.todd@gmail.com](mailto:philip.todd@gmail.com)
-
----
 
 > Building scalable cloud-native systems with .NET, Azure, and modern engineering practices.

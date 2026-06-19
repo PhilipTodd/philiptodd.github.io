@@ -72,7 +72,7 @@ This project demonstrates how business events become the system of record while 
 **Links**
 
 * Architecture Documentation *Coming soon*
-* [Source Code](https://github.com/philiptodd/blastiq-event-sourcing-reference){:target="_blank"}
+* [Source Code](https://github.com/PhilipTodd/mining-event-sourcing-reference){:target="_blank"}
 * Live Demonstration *Coming soon*
 
 ---

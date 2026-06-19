@@ -14,7 +14,7 @@ The goal of these repositories is to showcase real-world approaches to designing
 
 **GitHub Profile**
 
-* https://github.com/philiptodd
+* [https://github.com/philiptodd](https://github.com/philiptodd){:target="_blank"}
 
 ---
 
@@ -46,7 +46,7 @@ A cloud-native distributed systems reference platform demonstrating modern Azure
 
 ### Repository
 
-https://github.com/philiptodd/azure-distributed-systems-reference
+[https://github.com/philiptodd/azure-distributed-systems-reference](https://github.com/philiptodd/azure-distributed-systems-reference){:target="_blank"}
 
 ---
 
@@ -76,7 +76,7 @@ An event-sourced enterprise application demonstrating CQRS, event sourcing, and 
 
 ### Repository
 
-https://github.com/philiptodd/blastiq-event-sourcing-reference
+[https://github.com/PhilipTodd/mining-event-sourcing-reference](https://github.com/PhilipTodd/mining-event-sourcing-reference){:target="_blank"}
 
 ---
 

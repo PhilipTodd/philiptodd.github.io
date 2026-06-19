@@ -58,9 +58,10 @@ This project demonstrates how independently deployable services can be designed,
 
 ### Links
 
-- **Source Code:** https://github.com/philiptodd/azure-distributed-systems-reference
-- **Architecture:** Coming soon
-- **Live Demo:** Coming soon
+<!-- - **Source Code:** [github](https://github.com/philiptodd/azure-distributed-systems-reference) -->
+- **Source Code:** [github](https://github.com/philiptodd/azure-distributed-systems-reference){:target="_blank"}
+- **Architecture:** *Coming soon*
+- **Live Demo:** *Coming soon*
 
 ---
 
@@ -111,9 +112,9 @@ This project demonstrates how an application can use domain events as the system
 
 ### Links
 
-- **Source Code:** https://github.com/philiptodd/blastiq-event-sourcing-reference
-- **Architecture:** Coming soon
-- **Live Demo:** Coming soon
+- **Source Code:** [github](https://github.com/philiptodd/blastiq-event-sourcing-reference){:target="_blank"}
+- **Architecture:** *Coming soon*
+- **Live Demo:** *Coming soon*
 
 ---
 

@@ -46,9 +46,9 @@ This project demonstrates how independently deployable services can be designed,
 
 **Links**
 
-* Architecture Documentation
-* Source Code
-* Live Demonstration
+* Architecture Documentation *Coming soon*
+* [Source Code](https://github.com/philiptodd/azure-distributed-systems-reference){:target="_blank"}
+* Live Demonstration *Coming soon*
 
 ---
 
@@ -71,9 +71,9 @@ This project demonstrates how business events become the system of record while 
 
 **Links**
 
-* Architecture Documentation
-* Source Code
-* Live Demonstration
+* Architecture Documentation *Coming soon*
+* [Source Code](https://github.com/philiptodd/blastiq-event-sourcing-reference){:target="_blank"}
+* Live Demonstration *Coming soon*
 
 ---
 

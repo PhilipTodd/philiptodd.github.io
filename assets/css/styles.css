@@ -1,0 +1,333 @@
+/* ==========================================================================
+   Aus Data Tech
+   Portfolio Site
+   ========================================================================== */
+
+:root {
+    --primary: #0066CC;
+    --primary-dark: #004A99;
+    --background: #F6F8FB;
+    --surface: #FFFFFF;
+    --text: #222222;
+    --text-light: #666666;
+    --border: #E2E6EC;
+    --container-width: 1180px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+.container {
+    width: min(92%, var(--container-width));
+    margin: auto;
+}
+
+.site-main {
+    padding: 60px 0;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.site-header {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.brand-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.brand-subtitle {
+    margin-top: 4px;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+.site-nav {
+    display: flex;
+    gap: 28px;
+}
+
+    .site-nav a {
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 600;
+    }
+
+        .site-nav a:hover {
+            color: var(--primary);
+        }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--primary);
+}
+
+    a:hover {
+        color: var(--primary-dark);
+    }
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+
+.hero {
+    padding: 80px 0;
+}
+
+    .hero h1 {
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        max-width: 800px;
+        color: var(--text-light);
+    }
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 16px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    background: var(--primary);
+    color: white;
+}
+
+    .button:hover {
+        background: var(--primary-dark);
+        color: white;
+    }
+
+.button-secondary {
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+    .button-secondary:hover {
+        background: var(--primary);
+        color: white;
+    }
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform .2s ease;
+}
+
+    .card:hover {
+        transform: translateY(-4px);
+    }
+
+    .card h3 {
+        margin-top: 0;
+        color: var(--primary);
+    }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background: white;
+}
+
+th {
+    background: var(--primary);
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid var(--border);
+}
+
+tr:nth-child(even) {
+    background: #F8FAFC;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+ul,
+ol {
+    margin-left: 24px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ==========================================================================
+   Code
+   ========================================================================== */
+
+code {
+    background: #EEF2F7;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+}
+
+pre {
+    background: #1E1E1E;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 30px 0;
+}
+
+    pre code {
+        background: transparent;
+        color: inherit;
+        padding: 0;
+    }
+
+/* ==========================================================================
+   Images
+   ========================================================================== */
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 80px;
+    background: white;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+    .footer-inner a {
+        text-decoration: none;
+    }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 900px) {
+
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .site-nav {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

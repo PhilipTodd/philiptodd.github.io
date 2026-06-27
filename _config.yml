@@ -1,8 +1,8 @@
-title: Philip Todd
-description: Technology Leader | Cloud Architect | Azure
-url: https://philiptodd.github.io
+title: Aus Data Tech
+description: Senior software engineering, cloud-native architecture, .NET and Azure.
+# url: https://philiptodd.github.io
 
-markdown: kramdown
+# markdown: kramdown
 
-plugins:
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-seo-tag

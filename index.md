@@ -1,149 +1,156 @@
 # Philip Todd
 
-## Senior Software Engineer | Azure Cloud Architect | Technical Leader
+## Senior Software Engineer
 
-I design and build cloud-native software solutions using .NET, Azure, distributed systems, and modern DevOps practices.
+**Cloud-Native Architecture • .NET • Microsoft Azure • Distributed Systems**
 
-With more than 25 years of software engineering experience, I have delivered enterprise applications, SaaS platforms, and cloud-based solutions across a range of industries. My background combines hands-on engineering expertise with technical leadership, enabling me to drive software delivery while remaining focused on architecture, engineering quality, and business outcomes.
+Welcome to **Aus Data Tech**, my professional engineering portfolio.
 
-My current focus is designing and delivering scalable Azure-based systems using .NET, C#, event-driven architectures, infrastructure as code, and modern software delivery practices.
+I specialise in designing and building modern cloud-native software using the Microsoft technology stack, with a focus on distributed systems, event-driven architecture, Event Sourcing, CQRS and Azure Platform as a Service (PaaS).
 
----
-
-## Core Technologies
-
-* .NET 10 / C#
-* Microsoft Azure
-* Azure SQL & Cosmos DB
-* Event Sourcing & CQRS
-* Azure Service Bus & Event Hubs
-* Azure DevOps
-* Bicep & Infrastructure as Code
-* Distributed Systems
-* Angular
-* REST APIs & Microservices
+This portfolio showcases production-style reference implementations, technical documentation and engineering practices that demonstrate how enterprise software can be designed, built and deployed using modern technologies.
 
 ---
 
-## Featured Projects
+# Featured Projects
 
-### Azure Distributed Systems Reference
+## Event Sourcing Reference Platform
 
-A production-style reference platform demonstrating modern cloud-native architecture on Azure.
+A production-style reference implementation demonstrating **Event Sourcing**, **CQRS** and **Domain-Driven Design** using .NET 10 and Microsoft Azure.
 
-#### Highlights
+### Technologies
 
-* .NET 10 microservices
-* Azure Container Apps
-* Azure Service Bus messaging
-* Azure SQL
-* Microsoft Entra ID
-* Azure DevOps CI/CD
-* Bicep Infrastructure as Code
-* Application Insights observability
+- .NET 10
+- C# 14
+- Angular
+- Azure Cosmos DB
+- Azure SQL Database
+- Azure Event Hubs
+- Azure App Service
+- Microsoft Entra ID
+- Azure DevOps
+- Bicep
 
-This project demonstrates how independently deployable services can be designed, secured, deployed, and monitored using Microsoft Azure technologies.
+### Explore
 
-**Links**
-
-* Architecture Documentation
-* Source Code
-* Live Demonstration
-
----
-
-### Event Sourcing Reference Platform
-
-A reference implementation of an event-sourced enterprise application inspired by real-world industrial software platforms.
-
-#### Highlights
-
-* Event Sourcing
-* CQRS
-* Cosmos DB Event Store
-* Azure SQL Read Models
-* Domain-Driven Design
-* Azure Service Bus Integration
-* Angular Front-End
-* Azure DevOps Pipelines
-
-This project demonstrates how business events become the system of record while supporting scalable read models, asynchronous processing, and enterprise-grade cloud deployment.
-
-**Links**
-
-* Architecture Documentation
-* Source Code
-* Live Demonstration
+- Documentation
+- Live Demo *(Coming Soon)*
+- GitHub Repository
 
 ---
 
-## Technical Expertise
+## Distributed Systems Reference Platform
 
-### Cloud Architecture
+A cloud-native microservices reference implementation demonstrating modern distributed architecture using Microsoft Azure.
 
-Designing secure, scalable, and maintainable cloud solutions using Azure PaaS services and modern architectural patterns.
+### Technologies
 
-### Software Engineering
+- .NET 10
+- C# 14
+- React
+- Azure App Service
+- Azure SQL Database
+- Azure Service Bus
+- Azure API Management
+- Microsoft Entra ID
+- Azure DevOps
+- Bicep
 
-Building robust applications with .NET, C#, REST APIs, messaging systems, and domain-driven design principles.
+### Explore
 
-### DevOps & Delivery
-
-Implementing CI/CD pipelines, infrastructure as code, automated testing, and deployment automation using Azure DevOps and GitHub.
-
-### Technical Leadership
-
-Leading software teams, mentoring engineers, driving delivery practices, and aligning technology decisions with business objectives.
-
----
-
-## Engineering Principles
-
-My approach to software engineering is guided by a small set of principles:
-
-* Prefer simplicity over unnecessary complexity.
-* Build systems that are observable and maintainable.
-* Automate everything that should not require manual effort.
-* Design for change and long-term evolution.
-* Deliver business value through iterative delivery.
-* Maintain a strong engineering culture focused on quality.
+- Documentation
+- Live Demo *(Coming Soon)*
+- GitHub Repository
 
 ---
 
-## Current Focus
+# Technical Expertise
 
-I am currently developing public reference projects that demonstrate modern software engineering practices using:
+## Software Architecture
 
-* Azure Cloud Services
-* Distributed Systems
-* Event-Driven Architecture
-* Event Sourcing and CQRS
-* DevSecOps
-* Infrastructure as Code
-* AI-Assisted Software Development
-
-These projects showcase practical, production-oriented approaches to building and operating modern cloud applications.
+- Distributed Systems
+- Event-Driven Architecture
+- Event Sourcing
+- CQRS
+- Domain-Driven Design
+- REST APIs
+- Microservices
 
 ---
 
-## Professional Background
+## Microsoft Technologies
 
-* 25+ years software engineering experience
-* Azure cloud architecture and platform engineering
-* Technical leadership and engineering management
-* Agile software delivery and DevOps practices
-* Enterprise SaaS and cloud-native applications
+- C#
+- .NET
+- ASP.NET Core
+- Entity Framework Core
+- SQL Server
 
 ---
 
-## Connect
+## Microsoft Azure
 
-**LinkedIn:** https://linkedin.com/in/philiptodd
+- App Service
+- Azure SQL
+- Cosmos DB
+- Service Bus
+- Event Hubs
+- Blob Storage
+- Application Insights
+- Log Analytics
 
-**GitHub:** https://github.com/philiptodd
+---
+
+## DevOps
+
+- Azure DevOps
+- GitHub
+- GitHub Actions
+- Bicep
+- Infrastructure as Code
+- Continuous Integration
+- Continuous Deployment
+
+---
+
+# Professional Experience
+
+I have more than twenty years of experience delivering enterprise software using Microsoft technologies.
+
+My background spans software engineering, solution architecture, cloud migration, technical leadership and agile software delivery. My current focus is designing scalable, maintainable cloud-native applications using modern Azure services and engineering best practices.
+
+---
+
+# Engineering Philosophy
+
+I believe successful software is built on a small number of enduring principles:
+
+- Build simple, maintainable solutions.
+- Design for scalability from the outset.
+- Automate everything that can be automated.
+- Make systems observable by default.
+- Secure applications by design.
+- Document architectural decisions clearly.
+
+The reference projects featured on this site have been built to demonstrate these principles through practical, production-oriented implementations.
+
+---
+
+# Explore
+
+- Projects
+- Resume
+- Articles
+- About
+
+Thank you for visiting. I hope these reference implementations provide useful insight into my approach to software engineering and modern cloud-native architecture.
+
+---
+
+# Connect
+
+**LinkedIn:** [https://linkedin.com/in/philiptodd](https://linkedin.com/in/philiptodd)
+
+**GitHub:** [https://github.com/philiptodd](https://github.com/philiptodd)
 
 **Email:** [philip.todd@gmail.com](mailto:philip.todd@gmail.com)
-
----
-
-> Building scalable cloud-native systems with .NET, Azure, and modern engineering practices.

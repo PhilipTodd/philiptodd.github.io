@@ -6,200 +6,162 @@ permalink: /resume/
 
 # Resume
 
+## Professional Summary
 
-## Philip Todd
+I am a Senior Software Engineer with more than twenty years of experience delivering enterprise software solutions using Microsoft technologies.
 
-### Senior Software Engineer | Azure Cloud Architect | Technical Leader
+My experience spans software engineering, solution architecture, cloud-native application development, DevOps and technical leadership. Throughout my career I have worked across the full software development lifecycle, designing, building and deploying scalable business-critical systems.
 
-Sydney, Australia
-
-* **LinkedIn:** [https://linkedin.com/in/philiptoddau](https://linkedin.com/in/philiptoddau)
-* **GitHub:** [https://github.com/philiptodd](https://github.com/philiptodd){:target="_blank"}
-* **Website:** [https://ausdatatech.com.au](https://ausdatatech.com.au)
-
----
-
-# Professional Summary
-
-Software engineering professional with more than 25 years of experience designing, building, delivering, and leading software solutions across a broad range of industries and technologies.
-
-Experienced in cloud-native application development, distributed systems, software architecture, Azure platform services, DevOps practices, and Agile delivery. Combines deep technical expertise with leadership experience gained through software engineering management and technical leadership roles.
-
-Currently focused on hands-on software engineering, cloud architecture, event-driven systems, and modern Azure-based application development using .NET and C#.
+Today my primary focus is modern cloud-native software engineering using the Microsoft technology stack, with particular interest in distributed systems, Event Sourcing, CQRS, Domain-Driven Design and Microsoft Azure.
 
 ---
 
 # Core Competencies
 
-### Software Engineering
+## Software Engineering
 
-* C#
-* .NET
-* ASP.NET Core
-* REST APIs
-* Distributed Systems
-* Event-Driven Architecture
-* Domain-Driven Design
-* Event Sourcing
-* CQRS
+- C#
+- .NET
+- ASP.NET Core
+- REST APIs
+- Minimal APIs
+- SQL Server
+- Entity Framework Core
 
-### Microsoft Azure
+---
 
-* Azure App Service
-* Azure Container Apps
-* Azure Functions
-* Azure SQL
-* Cosmos DB
-* Service Bus
-* Event Hubs
-* Blob Storage
-* Key Vault
-* Microsoft Entra ID
-* Application Insights
+## Cloud & Azure
 
-### DevOps
+- Azure App Service
+- Azure SQL Database
+- Azure Cosmos DB
+- Azure Service Bus
+- Azure Event Hubs
+- Azure Blob Storage
+- Microsoft Entra ID
+- Azure Monitor
+- Application Insights
+- Log Analytics
 
-* Azure DevOps
-* GitHub
-* CI/CD Pipelines
-* Infrastructure as Code
-* Bicep
-* ARM Templates
-* Docker
+---
 
-### Leadership
+## Architecture
 
-* Engineering Leadership
-* Technical Strategy
-* Agile Delivery
-* Team Development
-* Stakeholder Engagement
-* Software Delivery Management
+- Distributed Systems
+- Microservices
+- Event-Driven Architecture
+- Event Sourcing
+- CQRS
+- Domain-Driven Design
+- Cloud-Native Architecture
+- Secure API Design
+
+---
+
+## DevOps
+
+- Azure DevOps
+- GitHub
+- GitHub Actions
+- Continuous Integration
+- Continuous Deployment
+- Infrastructure as Code
+- Bicep
+- Agile Delivery
 
 ---
 
 # Professional Experience
 
-## Head of Technology
+Throughout my career I have held both technical leadership and hands-on engineering roles.
 
-### DIVVY Parking
+My responsibilities have included:
 
-Led the technology function responsible for the development and operation of a cloud-based parking management platform.
-
-### Responsibilities
-
-* Technology strategy and roadmap planning
-* Solution architecture
-* Software delivery leadership
-* Azure cloud platform ownership
-* Team leadership and mentoring
-* Stakeholder engagement
-* Agile delivery management
-
-### Key Achievements
-
-* Led development of the DIVVY Drive-Up parking platform
-* Established software delivery practices and engineering standards
-* Managed cloud-based application delivery on Microsoft Azure
-* Improved team effectiveness through Agile processes and continuous improvement
+- Designing enterprise software architectures
+- Developing cloud-native applications
+- Leading software engineering teams
+- Implementing DevOps practices
+- Delivering Azure-based solutions
+- Modernising legacy applications
+- Mentoring engineers
+- Working closely with business stakeholders to deliver software aligned with organisational objectives
 
 ---
 
-## Software Development and Technical Leadership
+# Current Focus
 
-Over a career spanning more than two decades, responsibilities have included:
+I am currently expanding my expertise through the development of publicly available reference implementations that demonstrate modern engineering practices and enterprise architecture.
 
-* Software architecture
-* Enterprise application development
-* SaaS platform development
-* Cloud migrations
-* Team leadership
-* Agile transformation
-* Solution design
-* DevOps implementation
-* Software delivery management
+These projects showcase:
+
+- Event Sourcing
+- CQRS
+- Distributed Systems
+- Azure Platform as a Service
+- Infrastructure as Code
+- CI/CD
+- Observability
+- Production-style documentation
+
+---
+
+# Certifications & Continuous Learning
+
+Continuous learning has always been an important part of my professional development.
+
+Current areas of focus include:
+
+- Microsoft Azure
+- Cloud-native architecture
+- Distributed systems
+- Artificial Intelligence
+- DevSecOps
+- Platform engineering
 
 ---
 
 # Reference Projects
 
-## Azure Distributed Systems Reference
-
-A cloud-native reference platform demonstrating:
-
-* .NET microservices
-* Azure Container Apps
-* Azure Service Bus
-* Azure SQL
-* Microsoft Entra ID
-* Bicep Infrastructure as Code
-* Azure DevOps CI/CD
-
-**Repository**
-
-https://github.com/philiptodd/azure-distributed-systems-reference
-
----
+My current portfolio includes two production-style reference implementations.
 
 ## Event Sourcing Reference Platform
 
-A reference implementation demonstrating:
+Demonstrates:
 
-* Event Sourcing
-* CQRS
-* Domain-Driven Design
-* Cosmos DB Event Store
-* Azure SQL Read Models
-* Azure Service Bus
-* Angular Front-End
-* Azure DevOps
-
-**Repository**
-
-https://github.com/philiptodd/blastiq-event-sourcing-reference
+- Event Sourcing
+- CQRS
+- Domain-Driven Design
+- Azure Cosmos DB
+- Azure SQL
+- Azure Event Hubs
 
 ---
 
-# Technical Interests
+## Distributed Systems Reference Platform
 
-Current areas of focus include:
+Demonstrates:
 
-* Cloud-native applications
-* Distributed systems
-* Event-driven architecture
-* Event sourcing and CQRS
-* DevOps and platform engineering
-* Infrastructure as Code
-* Artificial Intelligence
-* Software architecture
+- Microservices
+- API Gateway
+- Azure Service Bus
+- Secure cloud-native APIs
+- Azure App Service
+- Modern DevOps practices
 
 ---
 
-# Professional Approach
+## Download Resume
 
-I enjoy working on complex technical challenges and creating solutions that are practical, maintainable, and aligned with business objectives.
+A PDF version of my current resume is available for download.
 
-My approach combines:
-
-* Strong engineering fundamentals
-* Modern cloud technologies
-* Architectural thinking
-* Pragmatic decision making
-* Continuous improvement
-* Focus on business outcomes
+<a href="{{ '/assets/Philip Todd.pdf' | relative_url }}" target="_blank" rel="noopener">
+    📄 Download Resume (PDF)
+</a>
 
 ---
 
-# Education and Certifications
+# Connect
 
-Details available on request.
+Thank you for taking the time to review my portfolio.
 
----
-
-# Additional Information
-
-This website includes architecture documentation, reference projects, GitHub repositories, and examples of software engineering work demonstrating modern Azure and .NET development practices.
-
----
-
-> Building reliable software systems through thoughtful architecture, disciplined engineering, and continuous improvement.
+If you would like to discuss opportunities, software architecture or any of the reference projects featured on this site, please feel free to connect with me via LinkedIn or GitHub.

@@ -26,7 +26,7 @@ The best way to connect professionally is via LinkedIn.
 
 **LinkedIn Profile**
 
-* [https://linkedin.com/in/philiptoddau](https://linkedin.com/in/philiptoddau)
+[https://linkedin.com/in/philiptodd](https://linkedin.com/in/philiptodd){:target="_blank"}
 
 ---
 
@@ -36,7 +36,7 @@ Explore my public repositories, reference projects, and technical work.
 
 **GitHub Profile**
 
-* [https://github.com/philiptodd](https://github.com/philiptodd){:target="_blank"}
+[https://github.com/philiptodd](https://github.com/philiptodd){:target="_blank"}
 
 ---
 

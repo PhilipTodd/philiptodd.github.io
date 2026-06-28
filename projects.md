@@ -2,172 +2,144 @@
 layout: default
 title: Projects
 permalink: /projects/
+permalink: /projects/
 ---
 
 # Projects
 
-## Reference Projects
+This portfolio includes a collection of production-style reference implementations designed to demonstrate modern software architecture, cloud-native engineering practices and the Microsoft technology stack.
 
-This page contains public reference projects demonstrating modern software engineering practices using .NET, Azure, distributed systems, DevOps, and infrastructure as code.
-
-Each project is intended to show practical implementation, not just theoretical architecture.
+Each project has been built as though it were a real enterprise application, with an emphasis on maintainability, scalability, automation and comprehensive documentation.
 
 ---
 
-## Azure Distributed Systems Reference
+# Event Sourcing Reference Platform
 
-A production-style reference platform demonstrating cloud-native distributed systems on Microsoft Azure.
+The Event Sourcing Reference Platform demonstrates how to implement a modern enterprise application using **Event Sourcing**, **Command Query Responsibility Segregation (CQRS)** and **Domain-Driven Design (DDD)**.
 
-### Purpose
+The project models a mining blast planning domain and showcases architectural patterns commonly used in large-scale distributed systems.
 
-This project demonstrates how independently deployable services can be designed, integrated, secured, deployed, and monitored using Azure platform services.
-
-### Key Concepts
-
-- Microservices
-- REST APIs
-- Asynchronous messaging
-- Database-per-service
-- Cloud-native deployment
-- Infrastructure as Code
-- CI/CD pipelines
-- Observability
-
-### Technology Stack
-
-- .NET 10 / C#
-- ASP.NET Core
-- Azure Container Apps
-- Azure Service Bus
-- Azure SQL
-- Microsoft Entra ID
-- Azure DevOps
-- Bicep
-- Application Insights
-- Log Analytics
-
-### Demonstrates
-
-- Service decomposition
-- API gateway / BFF pattern
-- Secure service communication
-- Azure-hosted workloads
-- Automated infrastructure deployment
-- Environment-specific configuration
-- Monitoring and diagnostics
-
-### Links
-
-- **Source Code:** [github](https://github.com/philiptodd/azure-distributed-systems-reference){:target="_blank"}
-- **Architecture:** *Coming soon*
-- **Live Demo:** *Coming soon*
-
----
-
-## Event Sourcing Reference Platform
-
-An event-sourced enterprise application reference project inspired by industrial planning and operational systems.
-
-### Purpose
-
-This project demonstrates how an application can use domain events as the system of record, with projections used to support query models, reporting, and operational views.
-
-### Key Concepts
+## Key Features
 
 - Event Sourcing
 - CQRS
 - Domain-Driven Design
-- Aggregate roots
-- Immutable business events
-- Asynchronous projections
-- Read model synchronisation
-- Message-based integration
-
-### Technology Stack
-
-- .NET 10 / C#
-- ASP.NET Core
-- Azure Cosmos DB
-- Azure SQL
-- Azure Service Bus
-- Angular
+- Event-Driven Architecture
+- Azure Cosmos DB Event Store
+- Azure SQL Read Models
+- Azure Event Hubs
 - Microsoft Entra ID
+- Azure App Service
+- Infrastructure as Code using Bicep
+- Azure DevOps CI/CD
+- Comprehensive Architecture Documentation
+
+## Technologies
+
+- .NET 10
+- C# 14
+- Angular
+- Azure Cosmos DB
+- Azure SQL Database
+- Azure Event Hubs
 - Azure App Service
 - Azure DevOps
 - Bicep
-- Application Insights
-- Log Analytics
 
-### Demonstrates
+## Links
 
-- Cosmos DB event store
-- Azure SQL read model projections
-- Command/query separation
-- Domain event modelling
-- Projection rebuilding
-- Asynchronous event publishing
-- API design for event-sourced systems
-- Cloud deployment using Azure PaaS
-
-### Links
-
-- **Source Code:** [github](https://github.com/PhilipTodd/mining-event-sourcing-reference){:target="_blank"}
-- **Architecture:** *Coming soon*
-- **Live Demo:** *Coming soon*
+- Documentation
+- Live Demo *(Coming Soon)*
+- GitHub Repository
 
 ---
 
-## Architecture Documentation
+# Distributed Systems Reference Platform
 
-The reference projects include architecture documentation using C4 modelling and practical system design documentation.
+The Distributed Systems Reference Platform demonstrates the design and implementation of a cloud-native microservices architecture using Microsoft Azure.
 
-### Documentation Includes
+The project focuses on service decomposition, asynchronous messaging, secure APIs and modern DevOps practices.
 
-- System context diagrams
-- Container diagrams
-- Deployment diagrams
-- Dynamic flow diagrams
-- Architecture decision records
-- Infrastructure notes
-- CI/CD pipeline documentation
+## Key Features
 
-### Tools and Practices
+- Microservices
+- API Gateway
+- Service-to-Service Communication
+- Asynchronous Messaging
+- Azure Service Bus
+- Independent Databases
+- Distributed Architecture
+- Microsoft Entra ID
+- Azure App Service
+- Infrastructure as Code using Bicep
+- Azure DevOps CI/CD
+- Comprehensive Architecture Documentation
 
-- Structurizr DSL
-- C4 Model
-- Markdown documentation
-- Architecture Decision Records
-- Azure architecture diagrams
+## Technologies
 
----
+- .NET 10
+- C# 14
+- React
+- Azure App Service
+- Azure SQL Database
+- Azure Service Bus
+- Azure API Management
+- Azure DevOps
+- Bicep
 
-## Project Goals
+## Links
 
-These projects are designed to demonstrate the ability to:
-
-- Design cloud-native systems.
-- Build production-style .NET applications.
-- Apply modern Azure platform services.
-- Use event-driven and distributed architecture patterns.
-- Automate infrastructure and deployment.
-- Communicate architecture clearly.
-- Balance technical design with business outcomes.
-
----
-
-## Current Status
-
-The projects are under active development.
-
-As they mature, this page will be updated with:
-
-- Architecture diagrams
-- Screenshots
-- Running Azure-hosted demonstrations
-- CI/CD pipeline examples
-- Deployment notes
-- Observability examples
+- Documentation
+- Live Demo *(Coming Soon)*
+- GitHub Repository
 
 ---
 
-> These projects are public, practical demonstrations of software engineering capability across architecture, implementation, deployment, and operations.
+# Engineering Principles
+
+The reference projects are built around a consistent set of engineering principles.
+
+- Production-oriented architecture
+- Cloud-native design
+- Security by design
+- Infrastructure as Code
+- Automated CI/CD
+- Comprehensive observability
+- Domain-driven modelling
+- Clear technical documentation
+
+Each project is intended to demonstrate not only implementation techniques, but also the architectural decisions and engineering practices that support maintainable enterprise software.
+
+---
+
+# Future Projects
+
+Additional reference implementations are planned to explore other areas of modern software engineering.
+
+Potential future projects include:
+
+- AI-assisted software development
+- Azure Kubernetes Service (AKS)
+- Event-driven integration patterns
+- Distributed caching strategies
+- Identity and access management
+- DevSecOps pipelines
+- Platform engineering
+
+---
+
+# Source Code
+
+All projects are publicly available on GitHub.
+
+The repositories include:
+
+- Complete source code
+- Architecture documentation
+- C4 diagrams
+- Infrastructure as Code
+- Build pipelines
+- Deployment guidance
+- Architectural Decision Records (ADRs)
+
+These projects continue to evolve as new technologies and architectural patterns are explored.

@@ -48,9 +48,9 @@ The project models a mining blast planning domain and showcases architectural pa
 
 ## Links
 
-- Documentation
+- [Documentation](https://event-sourcing.ausdatatech.com.au/)
 - Live Demo *(Coming Soon)*
-- GitHub Repository
+- [GitHub Repository](https://github.com/PhilipTodd/mining-event-sourcing-reference)
 
 ---
 
@@ -89,9 +89,10 @@ The project focuses on service decomposition, asynchronous messaging, secure API
 
 ## Links
 
-- Documentation
+<!-- - [Documentation](https://distributed-systems.ausdatatech.com.au/) -->
+- Documentation *(Coming Soon)*
 - Live Demo *(Coming Soon)*
-- GitHub Repository
+- [GitHub Repository](https://github.com/PhilipTodd/azure-distributed-systems-reference)
 
 ---
 

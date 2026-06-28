@@ -33,9 +33,9 @@ A production-style reference implementation demonstrating **Event Sourcing**, **
 
 ### Explore
 
-- Documentation
+- [Documentation](https://event-sourcing.ausdatatech.com.au/)
 - Live Demo *(Coming Soon)*
-- GitHub Repository
+- [GitHub Repository](https://github.com/PhilipTodd/mining-event-sourcing-reference)
 
 ---
 
@@ -58,9 +58,10 @@ A cloud-native microservices reference implementation demonstrating modern distr
 
 ### Explore
 
-- Documentation
+<!-- - [Documentation](https://distributed-systems.ausdatatech.com.au/) -->
+- Documentation *(Coming Soon)*
 - Live Demo *(Coming Soon)*
-- GitHub Repository
+- [GitHub Repository](https://github.com/PhilipTodd/azure-distributed-systems-reference)
 
 ---
 

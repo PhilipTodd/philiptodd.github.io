@@ -1,3 +1,9 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+
 # Contact
 
 ## Philip Todd
@@ -40,7 +46,7 @@ For professional enquiries, please contact me via email.
 
 **Email**
 
-[philip.todd@gmail.com](mailto:philip.todd@gmail.com)
+* [philip.todd@gmail.com](mailto:philip.todd@gmail.com)
 
 ---
 

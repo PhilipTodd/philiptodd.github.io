@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Architecture
+permalink: /architecture/
 ---
 
 # Architecture
@@ -86,7 +87,7 @@ This approach enables:
 
 ### Typical Flow
 
-```text
+```
 User Action
     ↓
 Command
@@ -98,3 +99,4 @@ Domain Event
 Message Broker
     ↓
 Subscribers
+```

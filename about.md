@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Projects
+title: About
+permalink: /about/
 ---
 
 # About

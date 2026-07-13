@@ -1,333 +1,294 @@
 /* ==========================================================================
-   Aus Data Tech
-   Portfolio Site
+   1. DESIGN TOKENS (Variables)
    ========================================================================== */
-
 :root {
-    --primary: #0066CC;
-    --primary-dark: #004A99;
-    --background: #F6F8FB;
-    --surface: #FFFFFF;
-    --text: #222222;
-    --text-light: #666666;
-    --border: #E2E6EC;
-    --container-width: 1180px;
+    /* Color Palette - Professional Engineering Focus */
+    --bg-primary: #f1f5f9;       /* Light cool gray for external body background */
+    --bg-surface: #ffffff;       /* Pure white for the main content card */
+    --bg-header: #0f172a;        /* Deep slate/navy for high-contrast header structural anchor */
+    
+    --text-primary: #0f172a;     /* Dark slate for optimal readability */
+    --text-secondary: #334155;   /* Medium slate for body text blocks */
+    --text-muted: #94a3b8;       /* Clean light gray for structural subtitles and dates */
+    --text-header: #f8fafc;      /* Bright white for header elements */
+    
+    --accent: #2563eb;           /* Professional royal blue for interactive links */
+    --accent-hover: #1d4ed8;     /* Darker blue for active states */
+    --border-color: #cbd5e1;     /* Distinct gray for tables and hr dividers */
+    
+    --code-bg: #1e293b;          /* Dark background for code block environments */
+    --code-text: #f8fafc;        /* White text for block code output */
+    --inline-code-text: #b91c1c; /* Standout crimson for inline code definitions */
+
+    /* Typography Hierarchy */
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    /* Layout & Spacing Units */
+    --max-width: 800px;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 3.5rem;
+    --radius: 6px;
 }
 
+/* ==========================================================================
+   2. BASE STYLES & RESET
+   ========================================================================== */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--background);
-    color: var(--text);
+    font-family: var(--font-sans);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     line-height: 1.7;
-    font-size: 17px;
+    font-size: 1.05rem;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-
-/* ==========================================================================
-   Layout
-   ========================================================================== */
 
 .container {
-    width: min(92%, var(--container-width));
-    margin: auto;
-}
-
-.site-main {
-    padding: 60px 0;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
 }
 
 /* ==========================================================================
-   Header
+   3. TYPOGRAPHY
    ========================================================================== */
+h1, h2, h3, h4 {
+    color: var(--text-primary);
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+}
 
+h1 { 
+    font-size: 2.0rem; 
+    letter-spacing: -0.025em; 
+}
+
+h2 { 
+    font-size: 1.65rem; 
+    border-bottom: 2px solid var(--border-color); 
+    padding-bottom: var(--space-sm); 
+    margin-top: var(--space-xl); 
+}
+
+h3 { 
+    font-size: 1.25rem; 
+}
+
+p, ul, ol {
+    margin-bottom: var(--space-md);
+    color: var(--text-secondary);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+}
+
+a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   4. LAYOUT COMPONENTS (Header, Main, Footer)
+   ========================================================================== */
+/* Header Configuration with Deep Background Contrast */
 .site-header {
-    background: white;
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    background-color: var(--bg-header);
+    color: var(--text-header);
+    padding: var(--space-lg) 0;
+    border-bottom: 4px solid var(--accent); /* Accent bar highlights development focus */
 }
 
 .header-inner {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 0;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+@media (min-width: 640px) {
+    .header-inner {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .brand-title {
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: 700;
-    color: var(--primary);
+    color: var(--text-header);
+    letter-spacing: -0.02em;
+}
+
+.brand-title:hover {
+    color: var(--text-header);
     text-decoration: none;
 }
 
 .brand-subtitle {
-    margin-top: 4px;
-    color: var(--text-light);
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+}
+
+/* Main Site Navigation Links inside Header */
+.site-nav {
+    display: flex;
+    gap: var(--space-md);
+    font-weight: 500;
     font-size: 0.95rem;
 }
 
-/* ==========================================================================
-   Navigation
-   ========================================================================== */
-
-.site-nav {
-    display: flex;
-    gap: 28px;
+.site-nav a {
+    color: var(--text-muted);
+    transition: color 0.15s ease-in-out;
 }
 
-    .site-nav a {
-        text-decoration: none;
-        color: var(--text);
-        font-weight: 600;
-    }
-
-        .site-nav a:hover {
-            color: var(--primary);
-        }
-
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    color: var(--primary);
-}
-
-h3 {
-    margin-top: 40px;
-    margin-bottom: 15px;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-a {
-    color: var(--primary);
-}
-
-    a:hover {
-        color: var(--primary-dark);
-    }
-
-/* ==========================================================================
-   Hero Section
-   ========================================================================== */
-
-.hero {
-    padding: 80px 0;
-}
-
-    .hero h1 {
-        margin-bottom: 20px;
-    }
-
-    .hero p {
-        font-size: 1.2rem;
-        max-width: 800px;
-        color: var(--text-light);
-    }
-
-/* ==========================================================================
-   Buttons
-   ========================================================================== */
-
-.button {
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 16px;
-    padding: 12px 24px;
-    border-radius: 6px;
+.site-nav a:hover {
+    color: var(--text-header);
     text-decoration: none;
-    font-weight: 600;
-    background: var(--primary);
-    color: white;
 }
 
-    .button:hover {
-        background: var(--primary-dark);
-        color: white;
-    }
-
-.button-secondary {
-    background: transparent;
-    border: 2px solid var(--primary);
-    color: var(--primary);
+/* Main Content Area Container */
+.site-main {
+    flex: 1;
+    padding: var(--space-xl) 0;
+    background-color: var(--bg-surface);
 }
 
-    .button-secondary:hover {
-        background: var(--primary);
-        color: white;
-    }
-
-/* ==========================================================================
-   Cards
-   ========================================================================== */
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 30px;
-}
-
-.card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 30px;
-    transition: transform .2s ease;
-}
-
-    .card:hover {
-        transform: translateY(-4px);
-    }
-
-    .card h3 {
-        margin-top: 0;
-        color: var(--primary);
-    }
-
-/* ==========================================================================
-   Tables
-   ========================================================================== */
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 30px 0;
-    background: white;
-}
-
-th {
-    background: var(--primary);
-    color: white;
-    text-align: left;
-    padding: 12px;
-}
-
-td {
-    padding: 12px;
-    border: 1px solid var(--border);
-}
-
-tr:nth-child(even) {
-    background: #F8FAFC;
-}
-
-/* ==========================================================================
-   Lists
-   ========================================================================== */
-
-ul,
-ol {
-    margin-left: 24px;
-    margin-bottom: 20px;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-/* ==========================================================================
-   Code
-   ========================================================================== */
-
-code {
-    background: #EEF2F7;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-family: Consolas, monospace;
-}
-
-pre {
-    background: #1E1E1E;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    overflow-x: auto;
-    margin: 30px 0;
-}
-
-    pre code {
-        background: transparent;
-        color: inherit;
-        padding: 0;
-    }
-
-/* ==========================================================================
-   Images
-   ========================================================================== */
-
-img {
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-/* ==========================================================================
-   Footer
-   ========================================================================== */
-
+/* Footer Element Configuration */
 .site-footer {
-    border-top: 1px solid var(--border);
-    margin-top: 80px;
-    background: white;
+    background-color: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
+    padding: var(--space-xl) 0;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
 }
 
 .footer-inner {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
+    gap: var(--space-md);
 }
 
-    .footer-inner a {
-        text-decoration: none;
+@media (min-width: 640px) {
+    .footer-inner {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
+}
+
+.site-footer p {
+    margin-bottom: 0;
+    color: var(--text-secondary);
+}
+
+.site-footer a {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.site-footer a:hover {
+    color: var(--accent);
+}
+
+.site-footer span {
+    color: var(--border-color);
+    padding: 0 var(--space-sm);
+}
 
 /* ==========================================================================
-   Responsive
+   5. MARKDOWN & TECHNICAL ELEMENTS STYLING
    ========================================================================== */
+/* Standard Lists Configuration */
+.site-main ul, .site-main ol {
+    padding-left: var(--space-lg);
+    margin-bottom: var(--space-md);
+}
 
-@media (max-width: 900px) {
+.site-main li {
+    margin-bottom: 0.35rem;
+    color: var(--text-secondary);
+}
 
-    .header-inner {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-    }
+/* Structured Layout Data Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-lg) 0;
+    font-size: 0.95rem;
+}
 
-    .site-nav {
-        flex-wrap: wrap;
-        gap: 16px;
-    }
+th, td {
+    padding: var(--space-md);
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
 
-    h1 {
-        font-size: 2.3rem;
-    }
+th {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-weight: 600;
+}
 
-    .footer-inner {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+/* Left-bordered blockquotes for architectural summaries or metrics */
+blockquote {
+    border-left: 4px solid var(--accent);
+    padding: var(--space-sm) var(--space-md);
+    margin: var(--space-lg) 0;
+    background-color: var(--bg-primary);
+    font-style: italic;
+    border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+blockquote p {
+    margin-bottom: 0;
+}
+
+/* Technical Syntax and Code Formatting Blocks */
+code {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    background-color: var(--bg-primary);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    color: var(--inline-code-text);
+}
+
+pre {
+    background-color: var(--code-bg);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    overflow-x: auto;
+    margin: var(--space-lg) 0;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    color: var(--code-text);
+    border-radius: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid var(--border-color);
+    margin: var(--space-xl) 0;
 }

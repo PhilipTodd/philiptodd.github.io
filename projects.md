@@ -2,7 +2,6 @@
 layout: default
 title: Projects
 permalink: /projects/
-permalink: /projects/
 ---
 
 # Projects
@@ -49,7 +48,7 @@ The project models a mining blast planning domain and showcases architectural pa
 ## Links
 
 - [Documentation](https://event-sourcing.ausdatatech.com.au/)
-- Live Demo *(Coming Soon)*
+- [Live Demo](https://demo.event-sourcing.ausdatatech.com.au/)
 - [GitHub Repository](https://github.com/PhilipTodd/mining-event-sourcing-reference)
 
 ---
@@ -89,8 +88,7 @@ The project focuses on service decomposition, asynchronous messaging, secure API
 
 ## Links
 
-<!-- - [Documentation](https://distributed-systems.ausdatatech.com.au/) -->
-- Documentation *(Coming Soon)*
+- [Documentation](https://distributed-systems.ausdatatech.com.au/)
 - Live Demo *(Coming Soon)*
 - [GitHub Repository](https://github.com/PhilipTodd/azure-distributed-systems-reference)
 

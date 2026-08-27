@@ -1,167 +1,56 @@
 ---
-layout: default
+layout: page
 title: Resume
+description: Professional experience, competencies, and achievements of Philip Todd.
 permalink: /resume/
 ---
 
-# Resume
+**Principal / Lead Software Engineer & Solutions Architect**  
+Sydney / Central Coast, NSW • [philip.todd@gmail.com](mailto:philip.todd@gmail.com)  
+[LinkedIn](https://linkedin.com/in/philiptoddau/) • [GitHub](https://github.com/philiptodd)
 
-## Professional Summary
+<div class="callout">
+  <p><strong>Download PDF:</strong> <a href="{{ '/assets/Philip Todd.pdf' | relative_url }}" target="_blank">Download Philip Todd Resume (PDF)</a></p>
+</div>
 
-I am a Senior Software Engineer with more than twenty years of experience delivering enterprise software solutions using Microsoft technologies.
+## Professional Profile
 
-My experience spans software engineering, solution architecture, cloud-native application development, DevOps and technical leadership. Throughout my career I have worked across the full software development lifecycle, designing, building and deploying scalable business-critical systems.
+Commercially minded Technology Leader and Senior Software Engineer with over 20 years of experience delivering cloud-first, product-driven solutions. Combines deep technical execution in modern .NET and Azure PaaS with hands-on architecture, platform design, and end-to-end DevOps automation.
 
-Today my primary focus is modern cloud-native software engineering using the Microsoft technology stack, with particular interest in distributed systems, Event Sourcing, CQRS, Domain-Driven Design and Microsoft Azure.
+## Technical Competencies
 
----
+* **Languages & Frameworks:** C#, Modern .NET (.NET 8/10), ASP.NET Core, Entity Framework Core, RESTful APIs, Angular, TypeScript
+* **Architecture:** Distributed Systems, Event Sourcing, CQRS, Domain-Driven Design (DDD), Microservices, C4 Modelling
+* **Azure Cloud Platform:** Azure App Service, Azure Functions, Azure Container Apps, Azure SQL, Cosmos DB, Service Bus, Microsoft Entra ID, Key Vault, Application Insights
+* **DevOps & Delivery:** Bicep / ARM IaC, Azure DevOps Pipelines, GitHub Actions, DevSecOps, Automated Testing (xUnit)
 
-# Core Competencies
+## Professional Experience
 
-## Software Engineering
+### Secure Parking — Sydney, NSW
+**Engineering Manager** • *Jun 2025 – Dec 2025*
+* Provided technical direction and architectural governance for the DevOps team across Australia/New Zealand car park operations.
+* Architected CI/CD pipelines to modernise a microservices ecosystem utilizing Azure App Services, Azure SQL, Service Bus, and Serverless Functions.
+* Replaced manual workflows with automated deployment validation to improve release stability and velocity.
 
-- C#
-- .NET
-- ASP.NET Core
-- REST APIs
-- Minimal APIs
-- SQL Server
-- Entity Framework Core
+### DIVVY Parking — Sydney, NSW
+**Head of Technology** • *Jan 2019 – Dec 2024*
+* Led end-to-end platform design and software delivery for mobility and parking management platforms across 4 Australian capital cities.
+* Architected DIVVY’s Drive-Up Car Park System using Azure IoT Hub, serverless functions, and REST APIs integrated with Adyen payment terminals and Xero (increased platform revenue by ~40%).
+* Delivered high-visibility solutions including the Woolworths Q-Tracker platform for real-time queue visibility during COVID-19.
+* Designed cloud-native architectures incorporating App Services, Azure SQL, Cosmos DB, and Service Bus.
 
----
+### Equifax — Sydney, NSW
+**Senior Full Stack Developer (Contract)** • *Oct 2018 – Dec 2018*
+* Fortified the security posture of the Secure Sentinel identity protection platform.
+* Resolved web application vulnerabilities aligned with OWASP Top 10 standards in C# and ASP.NET.
 
-## Cloud & Azure
+### Total Synergy — Sydney, NSW
+**Senior Software Developer** • *Dec 2014 – Jun 2018*
+* Led the migration of a legacy desktop practice management system into an Azure-hosted SaaS platform.
+* Designed database schemas and implemented core backend services using C#, Azure SQL, Angular, and RESTful APIs.
 
-- Azure App Service
-- Azure SQL Database
-- Azure Cosmos DB
-- Azure Service Bus
-- Azure Event Hubs
-- Azure Blob Storage
-- Microsoft Entra ID
-- Azure Monitor
-- Application Insights
-- Log Analytics
+## Education & Certifications
 
----
-
-## Architecture
-
-- Distributed Systems
-- Microservices
-- Event-Driven Architecture
-- Event Sourcing
-- CQRS
-- Domain-Driven Design
-- Cloud-Native Architecture
-- Secure API Design
-
----
-
-## DevOps
-
-- Azure DevOps
-- GitHub
-- GitHub Actions
-- Continuous Integration
-- Continuous Deployment
-- Infrastructure as Code
-- Bicep
-- Agile Delivery
-
----
-
-# Professional Experience
-
-Throughout my career I have held both technical leadership and hands-on engineering roles.
-
-My responsibilities have included:
-
-- Designing enterprise software architectures
-- Developing cloud-native applications
-- Leading software engineering teams
-- Implementing DevOps practices
-- Delivering Azure-based solutions
-- Modernising legacy applications
-- Mentoring engineers
-- Working closely with business stakeholders to deliver software aligned with organisational objectives
-
----
-
-# Current Focus
-
-I am currently expanding my expertise through the development of publicly available reference implementations that demonstrate modern engineering practices and enterprise architecture.
-
-These projects showcase:
-
-- Event Sourcing
-- CQRS
-- Distributed Systems
-- Azure Platform as a Service
-- Infrastructure as Code
-- CI/CD
-- Observability
-- Production-style documentation
-
----
-
-# Certifications & Continuous Learning
-
-Continuous learning has always been an important part of my professional development.
-
-Current areas of focus include:
-
-- Microsoft Azure
-- Cloud-native architecture
-- Distributed systems
-- Artificial Intelligence
-- DevSecOps
-- Platform engineering
-
----
-
-# Reference Projects
-
-My current portfolio includes two production-style reference implementations.
-
-## Event Sourcing Reference Platform
-
-Demonstrates:
-
-- Event Sourcing
-- CQRS
-- Domain-Driven Design
-- Azure Cosmos DB
-- Azure SQL
-- Azure Event Hubs
-
----
-
-## Distributed Systems Reference Platform
-
-Demonstrates:
-
-- Microservices
-- API Gateway
-- Azure Service Bus
-- Secure cloud-native APIs
-- Azure App Service
-- Modern DevOps practices
-
----
-
-## Download Resume
-
-A PDF version of my current resume is available for download.
-
-<a href="{{ '/assets/Philip Todd.pdf' | relative_url }}" target="_blank" rel="noopener">
-    📄 Download Resume (PDF)
-</a>
-
----
-
-# Connect
-
-Thank you for taking the time to review my portfolio.
-
-If you would like to discuss opportunities, software architecture or any of the reference projects featured on this site, please feel free to connect with me via LinkedIn or GitHub.
+* **Bachelor of Science (Computing Science), Honours** — University of Technology Sydney (UTS)
+* **Agile Project Management** — Australian Institute of Management
+* **IBM Certified Solution Designer** — eBusiness

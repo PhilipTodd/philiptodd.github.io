@@ -1,78 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-AU">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-    <meta property="og:title" content="AusDataTech">
-    <meta property="og:description" content="Senior Software Engineer, Azure Cloud Architecture and Distributed Systems">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ausdatatech.com.au">
-    <meta property="og:image" content="https://ausdatatech.com.au/assets/images/social-preview.png">
-
-    <title>
-        {% if page.title %}
-        {{ page.title }} | {{ site.title }}
-        {% else %}
-        {{ site.title }}
-        {% endif %}
-    </title>
-
-    <meta name="description" content="{{ site.description }}">
-
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
-
 <body>
 
-    <header class="site-header">
-        <div class="container header-inner">
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-brand">
+        <span class="brand-bracket">&lt;</span>Philip Todd<span class="brand-bracket"> /&gt;</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/projects/' | relative_url }}">Reference Projects</a>
+        <a href="{{ '/resume/' | relative_url }}">Resume</a>
+        <a href="https://github.com/philiptodd" target="_blank" class="nav-gh">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
 
-            <div class="brand">
-                <a class="brand-title" href="{{ '/' | relative_url }}">
-                    Aus Data Tech
-                </a>
-                <div class="brand-subtitle">
-                    Cloud-native software engineering on Microsoft Azure
-                </div>
-            </div>
+  <main>
+    {{ content }}
+  </main>
 
-            <nav class="site-nav" aria-label="Main navigation">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/projects/' | relative_url }}">Projects</a>
-                <a href="{{ '/resume/' | relative_url }}">Resume</a>
-                <!-- <a href="{{ '/articles/' | relative_url }}">Articles</a> -->
-                <a href="{{ '/about/' | relative_url }}">About</a>
-            </nav>
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <strong>Philip Todd</strong> • Principal / Lead Software Engineer & Solutions Architect
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/philiptodd" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/philiptodd" target="_blank">LinkedIn</a>
+        <a href="mailto:philip.todd@gmail.com">philip.todd@gmail.com</a>
+      </div>
+    </div>
+  </footer>
 
-        </div>
-    </header>
-
-    <main class="site-main">
-        <div class="container">
-            {{ content }}
-        </div>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container footer-inner">
-
-            <p>
-                © {{ site.time | date: "%Y" }} Philip Todd
-            </p>
-
-            <p>
-                <a href="https://github.com/philiptodd" target="_blank" rel="noopener">GitHub</a>
-                <span>·</span>
-                <a href="https://www.linkedin.com/in/philiptodd" target="_blank" rel="noopener">LinkedIn</a>
-                <span>·</span>
-                <a href="{{ '/resume/' | relative_url }}">Resume</a>
-            </p>
-
-        </div>
-    </footer>
-
+  <script>
+    function showTab(evt, tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      evt.currentTarget.classList.add('active');
+    }
+  </script>
 </body>
-
 </html>

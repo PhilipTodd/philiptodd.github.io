@@ -1,144 +1,65 @@
 ---
-layout: default
-title: Projects
+layout: page
+title: Technical Reference Projects
+description: In-depth breakdowns, live links, and source repositories for reference platforms.
 permalink: /projects/
 ---
 
-# Projects
+The projects below are designed to demonstrate complete software delivery lifecycles: from domain modelling and C4 architecture to automated Bicep deployments, CI/CD, and live production endpoints.
 
-This portfolio includes a collection of production-style reference implementations designed to demonstrate modern software architecture, cloud-native engineering practices and the Microsoft technology stack.
+## 1. Event Sourcing Reference Platform
 
-Each project has been built as though it were a real enterprise application, with an emphasis on maintainability, scalability, automation and comprehensive documentation.
+Demonstrates an enterprise-scale, event-sourced system modeled around mining blast-planning workflows. It replaces traditional CRUD updates with immutable domain events, supporting auditability, historical state reconstruction, and independently scalable read models.
 
----
+* **Architecture:** Command Query Responsibility Segregation (CQRS), Domain-Driven Design (DDD), Event Sourcing
+* **Write Pipeline:** ASP.NET Core API validates commands and appends events into Azure Cosmos DB (`/streamId` partition) with optimistic concurrency.
+* **Read Pipeline:** Committed events are published to Azure Service Bus Topics, where Azure Functions project denormalised views into Azure SQL Database.
+* **Delivery & IaC:** Bicep templates deployed via Azure DevOps multi-stage pipelines with What-If validation.
 
-# Event Sourcing Reference Platform
+{% include c4-diagram.html
+  id="event-sourcing-c4"
+  title="C4 container diagram — event sourced blast planning"
+%}
 
-The Event Sourcing Reference Platform demonstrates how to implement a modern enterprise application using **Event Sourcing**, **Command Query Responsibility Segregation (CQRS)** and **Domain-Driven Design (DDD)**.
+<div class="cta-group">
+  <a href="https://demo.event-sourcing.ausdatatech.com.au" target="_blank" class="btn btn-primary">Launch Live Demo ↗</a>
+  <a href="https://event-sourcing.ausdatatech.com.au" target="_blank" class="btn btn-secondary">Documentation & ADRs ↗</a>
+  <a href="https://github.com/philiptodd/mining-event-sourcing-reference" target="_blank" class="btn btn-secondary">Source Code ↗</a>
+</div>
 
-The project models a mining blast planning domain and showcases architectural patterns commonly used in large-scale distributed systems.
+## 2. Distributed Systems Reference Platform
 
-## Key Features
+Models cloud-native microservices communicating via decoupled asynchronous messaging boundaries on Microsoft Azure.
 
-- Event Sourcing
-- CQRS
-- Domain-Driven Design
-- Event-Driven Architecture
-- Azure Cosmos DB Event Store
-- Azure SQL Read Models
-- Azure Event Hubs
-- Microsoft Entra ID
-- Azure App Service
-- Infrastructure as Code using Bicep
-- Azure DevOps CI/CD
-- Comprehensive Architecture Documentation
+* **Key Concepts:** Containerised services, API Gateway/BFF patterns, resilient message handling, and distributed tracing.
+* **Observability:** Centralised telemetry correlation across Service Bus boundaries using Application Insights and Log Analytics.
+* **Architecture as Code:** Visualised using Structurizr DSL and C4 Model container diagrams.
 
-## Technologies
+{% include c4-diagram.html
+  id="distributed-system-c4"
+  title="C4 container diagram — distributed microservices on Azure"
+%}
 
-- .NET 10
-- C# 14
-- Angular
-- Azure Cosmos DB
-- Azure SQL Database
-- Azure Event Hubs
-- Azure App Service
-- Azure DevOps
-- Bicep
+<div class="cta-group">
+  <a href="https://distributed-systems.ausdatatech.com.au" target="_blank" class="btn btn-primary">Architecture Documentation ↗</a>
+  <a href="https://github.com/philiptodd/azure-distributed-systems-reference" target="_blank" class="btn btn-secondary">Source Code ↗</a>
+</div>
 
-## Links
+## 3. Ticketing Reference Application
 
-- [Documentation](https://event-sourcing.ausdatatech.com.au/)
-- [Live Demo](https://demo.event-sourcing.ausdatatech.com.au/)
-- [GitHub Repository](https://github.com/PhilipTodd/mining-event-sourcing-reference)
+Demonstrates pragmatic, production-ready full-stack software delivery without unnecessary architectural overhead.
 
----
+* **Key Capabilities:** Dynamic filtering, sorting, pagination, and optimistic concurrency handling.
+* **Database Design:** Isolated within the `ticketing` schema of a shared database with independent EF Core migration histories.
+* **Testing:** HTTP boundary integration testing using `WebApplicationFactory` and in-memory SQLite.
 
-# Distributed Systems Reference Platform
+{% include c4-diagram.html
+  id="ticketing-c4"
+  title="C4 container diagram — ticketing reference application"
+%}
 
-The Distributed Systems Reference Platform demonstrates the design and implementation of a cloud-native microservices architecture using Microsoft Azure.
-
-The project focuses on service decomposition, asynchronous messaging, secure APIs and modern DevOps practices.
-
-## Key Features
-
-- Microservices
-- API Gateway
-- Service-to-Service Communication
-- Asynchronous Messaging
-- Azure Service Bus
-- Independent Databases
-- Distributed Architecture
-- Microsoft Entra ID
-- Azure App Service
-- Infrastructure as Code using Bicep
-- Azure DevOps CI/CD
-- Comprehensive Architecture Documentation
-
-## Technologies
-
-- .NET 10
-- C# 14
-- React
-- Azure App Service
-- Azure SQL Database
-- Azure Service Bus
-- Azure API Management
-- Azure DevOps
-- Bicep
-
-## Links
-
-- [Documentation](https://distributed-systems.ausdatatech.com.au/)
-- Live Demo *(Coming Soon)*
-- [GitHub Repository](https://github.com/PhilipTodd/azure-distributed-systems-reference)
-
----
-
-# Engineering Principles
-
-The reference projects are built around a consistent set of engineering principles.
-
-- Production-oriented architecture
-- Cloud-native design
-- Security by design
-- Infrastructure as Code
-- Automated CI/CD
-- Comprehensive observability
-- Domain-driven modelling
-- Clear technical documentation
-
-Each project is intended to demonstrate not only implementation techniques, but also the architectural decisions and engineering practices that support maintainable enterprise software.
-
----
-
-# Future Projects
-
-Additional reference implementations are planned to explore other areas of modern software engineering.
-
-Potential future projects include:
-
-- AI-assisted software development
-- Azure Kubernetes Service (AKS)
-- Event-driven integration patterns
-- Distributed caching strategies
-- Identity and access management
-- DevSecOps pipelines
-- Platform engineering
-
----
-
-# Source Code
-
-All projects are publicly available on GitHub.
-
-The repositories include:
-
-- Complete source code
-- Architecture documentation
-- C4 diagrams
-- Infrastructure as Code
-- Build pipelines
-- Deployment guidance
-- Architectural Decision Records (ADRs)
-
-These projects continue to evolve as new technologies and architectural patterns are explored.
+<div class="cta-group">
+  <a href="https://demo.ticketing.ausdatatech.com.au" target="_blank" class="btn btn-primary">Launch Live Demo ↗</a>
+  <a href="https://ticketing.ausdatatech.com.au" target="_blank" class="btn btn-secondary">Documentation & Decisions ↗</a>
+  <a href="https://github.com/philiptodd/TicketTest" target="_blank" class="btn btn-secondary">Source Code ↗</a>
+</div>

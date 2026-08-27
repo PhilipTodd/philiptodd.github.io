@@ -1,0 +1,24 @@
+{% assign diagram_path = '/assets/diagrams/' | append: include.id | append: '.svg' %}
+{% assign diagram = site.static_files | where: "path", diagram_path | first %}
+
+<div class="c4-frame">
+  {% if diagram %}
+    <img
+      class="c4-diagram"
+      src="{{ diagram_path | relative_url }}"
+      alt="{{ include.title | default: include.id }}"
+      width="1200"
+      height="980">
+    <a class="c4-open" href="{{ diagram_path | relative_url }}" target="_blank" rel="noopener">Open full-size diagram ↗</a>
+  {% else %}
+    <div class="c4-placeholder">
+      <p><strong>[{{ include.title }}]</strong></p>
+      {% if include.summary %}
+      <p class="c4-placeholder-summary">{{ include.summary }}</p>
+      {% endif %}
+      <p class="c4-placeholder-hint">
+        Place exported diagram at: <code>assets/diagrams/{{ include.id }}.svg</code>
+      </p>
+    </div>
+  {% endif %}
+</div>

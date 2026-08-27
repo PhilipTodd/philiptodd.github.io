@@ -1,0 +1,23 @@
+- category: Cloud Architecture & Messaging
+  items:
+    - Event Sourcing & CQRS
+    - Domain-Driven Design (DDD)
+    - Asynchronous Messaging (Service Bus, Event Hubs)
+    - Microservices & Container Apps
+    - C4 Structurizr Modeling
+
+- category: Modern Backend & Data
+  items:
+    - C# 14 / .NET 10 / ASP.NET Core
+    - Azure Cosmos DB (Partitioning & Tuning)
+    - Azure SQL Database (Indexing, Sargability, RCSI)
+    - Entity Framework Core & AsNoTracking Optimization
+    - RESTful APIs & ProblemDetails
+
+- category: DevOps, Security & Frontend
+  items:
+    - Bicep Infrastructure as Code (What-If, Stacks)
+    - Azure DevOps YAML & GitHub Actions
+    - Microsoft Entra ID (OIDC / Managed Identity)
+    - Angular, TypeScript & MSAL
+    - Application Insights & Distributed Tracing

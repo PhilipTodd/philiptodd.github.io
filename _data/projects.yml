@@ -1,0 +1,74 @@
+- id: event-sourcing
+  title: Event Sourcing Reference Platform
+  badge: Flagship Implementation
+  summary: Cloud-native blast-planning system implementing CQRS, domain events, and asynchronous projections without traditional CRUD mutations.
+  tech:
+    - .NET 10
+    - C# 14
+    - Event Sourcing
+    - Cosmos DB
+    - Azure SQL
+    - Service Bus
+    - Angular
+    - Bicep
+  metrics:
+    - label: Event Store
+      value: Cosmos DB Core API (/streamId)
+    - label: Consistency
+      value: Optimistic Session Level
+    - label: Delivery
+      value: Azure DevOps YAML + Bicep
+  links:
+    demo: https://demo.event-sourcing.ausdatatech.com.au
+    docs: https://event-sourcing.ausdatatech.com.au
+    github: https://github.com/philiptodd/mining-event-sourcing-reference
+  diagram_id: event-sourcing-c4
+
+- id: distributed-systems
+  title: Distributed Systems Reference Platform
+  badge: Microservices Architecture
+  summary: Enterprise-scale microservices ecosystem using asynchronous messaging boundaries, API Gateway routing, and isolated domain data stores.
+  tech:
+    - .NET 10
+    - Azure Container Apps
+    - YARP Gateway
+    - Service Bus
+    - Entra ID
+    - C4 Model
+    - Structurizr
+  metrics:
+    - label: Compute
+      value: Azure Container Apps (KEDA)
+    - label: Communication
+      value: Asynchronous Pub/Sub
+    - label: Modeling
+      value: Structurizr DSL / C4
+  links:
+    demo: https://demo.distributed-systems.ausdatatech.com.au
+    docs: https://distributed-systems.ausdatatech.com.au
+    github: https://github.com/philiptodd/azure-distributed-systems-reference
+  diagram_id: distributed-system-c4
+
+- id: ticketing
+  title: Ticketing Reference Application
+  badge: Full-Stack Execution
+  summary: Pragmatic full-stack system demonstrating optimistic concurrency tokens, isolated database schemas, and HTTP-boundary integration testing.
+  tech:
+    - ASP.NET Core
+    - Angular
+    - Azure SQL
+    - EF Core
+    - WebApplicationFactory
+    - Bicep
+  metrics:
+    - label: Concurrency
+      value: Version Handshake (409 Conflict)
+    - label: Isolation
+      value: ticketing Schema Migration
+    - label: Tests
+      value: xUnit + In-Memory SQLite
+  links:
+    demo: https://demo.ticketing.ausdatatech.com.au
+    docs: https://ticketing.ausdatatech.com.au
+    github: https://github.com/philiptodd/TicketTest
+  diagram_id: ticketing-c4

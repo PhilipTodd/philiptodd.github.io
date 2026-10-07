@@ -7,7 +7,26 @@ permalink: /projects/
 
 The projects below are designed to demonstrate complete software delivery lifecycles: from domain modelling and C4 architecture to automated Bicep deployments, CI/CD, and live production endpoints.
 
-## 1. Event Sourcing Reference Platform
+## 1. Distributed Systems Reference Platform
+
+Models cloud-native microservices communicating via decoupled asynchronous messaging boundaries on Microsoft Azure.
+
+* **Key Concepts:** Containerised services, API Gateway/BFF patterns, resilient message handling, and distributed tracing.
+* **Observability:** Centralised telemetry correlation across Service Bus boundaries using Application Insights and Log Analytics.
+* **Architecture as Code:** Visualised using Structurizr DSL and C4 Model container diagrams.
+
+{% include c4-diagram.html
+  id="distributed-system-c4"
+  title="C4 container diagram — distributed microservices on Azure"
+%}
+
+<div class="cta-group">
+  <a href="https://parameterpilot.com" target="_blank" class="btn btn-primary">Launch Live Demo ↗</a>
+  <a href="https://distributed-systems.ausdatatech.com.au" target="_blank" class="btn btn-primary">Architecture Documentation ↗</a>
+  <a href="https://github.com/philiptodd/azure-distributed-systems-reference" target="_blank" class="btn btn-secondary">Source Code ↗</a>
+</div>
+
+## 2. Event Sourcing Reference Platform
 
 Demonstrates an enterprise-scale, event-sourced system modeled around mining blast-planning workflows. It replaces traditional CRUD updates with immutable domain events, supporting auditability, historical state reconstruction, and independently scalable read models.
 
@@ -25,24 +44,6 @@ Demonstrates an enterprise-scale, event-sourced system modeled around mining bla
   <a href="https://demo.event-sourcing.ausdatatech.com.au" target="_blank" class="btn btn-primary">Launch Live Demo ↗</a>
   <a href="https://event-sourcing.ausdatatech.com.au" target="_blank" class="btn btn-secondary">Documentation & ADRs ↗</a>
   <a href="https://github.com/philiptodd/mining-event-sourcing-reference" target="_blank" class="btn btn-secondary">Source Code ↗</a>
-</div>
-
-## 2. Distributed Systems Reference Platform
-
-Models cloud-native microservices communicating via decoupled asynchronous messaging boundaries on Microsoft Azure.
-
-* **Key Concepts:** Containerised services, API Gateway/BFF patterns, resilient message handling, and distributed tracing.
-* **Observability:** Centralised telemetry correlation across Service Bus boundaries using Application Insights and Log Analytics.
-* **Architecture as Code:** Visualised using Structurizr DSL and C4 Model container diagrams.
-
-{% include c4-diagram.html
-  id="distributed-system-c4"
-  title="C4 container diagram — distributed microservices on Azure"
-%}
-
-<div class="cta-group">
-  <a href="https://distributed-systems.ausdatatech.com.au" target="_blank" class="btn btn-primary">Architecture Documentation ↗</a>
-  <a href="https://github.com/philiptodd/azure-distributed-systems-reference" target="_blank" class="btn btn-secondary">Source Code ↗</a>
 </div>
 
 ## 3. Ticketing Reference Application

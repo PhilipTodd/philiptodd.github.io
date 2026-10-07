@@ -9,7 +9,7 @@ The projects below are designed to demonstrate complete software delivery lifecy
 
 ## 1. Distributed Systems Reference Platform
 
-Models cloud-native microservices communicating via decoupled asynchronous messaging boundaries on Microsoft Azure.
+A production-style Azure SaaS application designed and implemented using an AI-assisted software engineering workflow.
 
 * **Key Concepts:** Containerised services, API Gateway/BFF patterns, resilient message handling, and distributed tracing.
 * **Observability:** Centralised telemetry correlation across Service Bus boundaries using Application Insights and Log Analytics.

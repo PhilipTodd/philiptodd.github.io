@@ -25,7 +25,7 @@
 
 - id: event-sourcing
   title: Event Sourcing Reference Platform
-  badge: Flagship Implementation
+  badge: Azure Integration
   summary: Cloud-native blast-planning system implementing CQRS, domain events, and asynchronous projections without traditional CRUD mutations.
   tech:
     - .NET 10

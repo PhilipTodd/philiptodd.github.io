@@ -68,7 +68,7 @@ title: Philip Todd | Cloud Architect & Senior .NET Engineer
       <button class="tab-btn" onclick="showTab(event, 'c4-ticketing')">Ticketing System</button>
     </div>
 
-    <div id="c4-microservices" class="tab-content">
+    <div id="c4-microservices" class="tab-content active">
       {% include c4-diagram.html
         id="distributed-system-c4"
         title="C4 Level 2: Container Diagram — Cloud-Native Distributed Microservices"
@@ -76,7 +76,7 @@ title: Philip Todd | Cloud Architect & Senior .NET Engineer
       %}
     </div>
 
-    <div id="c4-event-sourcing" class="tab-content active">
+    <div id="c4-event-sourcing" class="tab-content">
       {% include c4-diagram.html
         id="event-sourcing-c4"
         title="C4 Level 2: Container Diagram — Event Sourced Blast Planning"

@@ -1,3 +1,28 @@
+- id: distributed-systems
+  title: Distributed Systems Reference Platform
+  badge: Microservices Architecture
+  summary: Enterprise-scale microservices ecosystem using asynchronous messaging boundaries, API Gateway routing, and isolated domain data stores.
+  tech:
+    - .NET 10
+    - Azure Container Apps
+    - YARP Gateway
+    - Service Bus
+    - Entra ID
+    - C4 Model
+    - Structurizr
+  metrics:
+    - label: Compute
+      value: Azure Container Apps (KEDA)
+    - label: Communication
+      value: Asynchronous Pub/Sub
+    - label: Modeling
+      value: Structurizr DSL / C4
+  links:
+    demo: https://parameterpilot.com
+    docs: https://distributed-systems.ausdatatech.com.au
+    github: https://github.com/philiptodd/azure-distributed-systems-reference
+  diagram_id: distributed-system-c4
+
 - id: event-sourcing
   title: Event Sourcing Reference Platform
   badge: Flagship Implementation
@@ -23,31 +48,6 @@
     docs: https://event-sourcing.ausdatatech.com.au
     github: https://github.com/philiptodd/mining-event-sourcing-reference
   diagram_id: event-sourcing-c4
-
-- id: distributed-systems
-  title: Distributed Systems Reference Platform
-  badge: Microservices Architecture
-  summary: Enterprise-scale microservices ecosystem using asynchronous messaging boundaries, API Gateway routing, and isolated domain data stores.
-  tech:
-    - .NET 10
-    - Azure Container Apps
-    - YARP Gateway
-    - Service Bus
-    - Entra ID
-    - C4 Model
-    - Structurizr
-  metrics:
-    - label: Compute
-      value: Azure Container Apps (KEDA)
-    - label: Communication
-      value: Asynchronous Pub/Sub
-    - label: Modeling
-      value: Structurizr DSL / C4
-  links:
-    demo: https://demo.distributed-systems.ausdatatech.com.au
-    docs: https://distributed-systems.ausdatatech.com.au
-    github: https://github.com/philiptodd/azure-distributed-systems-reference
-  diagram_id: distributed-system-c4
 
 - id: ticketing
   title: Ticketing Reference Application

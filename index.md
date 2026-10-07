@@ -63,17 +63,9 @@ title: Philip Todd | Cloud Architect & Senior .NET Engineer
     <p class="section-subtitle">System boundary, container, and asynchronous data-flow models generated via Structurizr DSL.</p>
 
     <div class="tab-nav">
-      <button class="tab-btn active" onclick="showTab(event, 'c4-event-sourcing')">Event Sourcing (Blast Planning)</button>
-      <button class="tab-btn" onclick="showTab(event, 'c4-microservices')">Distributed Microservices</button>
+      <button class="tab-btn active" onclick="showTab(event, 'c4-microservices')">Distributed Microservices (Parameter Pilot)</button>
+      <button class="tab-btn" onclick="showTab(event, 'c4-event-sourcing')">Event Sourcing (Blast Planning)</button>
       <button class="tab-btn" onclick="showTab(event, 'c4-ticketing')">Ticketing System</button>
-    </div>
-
-    <div id="c4-event-sourcing" class="tab-content active">
-      {% include c4-diagram.html
-        id="event-sourcing-c4"
-        title="C4 Level 2: Container Diagram — Event Sourced Blast Planning"
-        summary="Angular UI → ASP.NET Core API → Cosmos DB (/streamId) → Service Bus Topic → Azure Function Worker → Azure SQL (Read Model)"
-      %}
     </div>
 
     <div id="c4-microservices" class="tab-content">
@@ -81,6 +73,14 @@ title: Philip Todd | Cloud Architect & Senior .NET Engineer
         id="distributed-system-c4"
         title="C4 Level 2: Container Diagram — Cloud-Native Distributed Microservices"
         summary="YARP Gateway → Container Apps (.NET 10 Microservices) → Azure Service Bus Pub/Sub → OpenTelemetry Correlation"
+      %}
+    </div>
+
+    <div id="c4-event-sourcing" class="tab-content active">
+      {% include c4-diagram.html
+        id="event-sourcing-c4"
+        title="C4 Level 2: Container Diagram — Event Sourced Blast Planning"
+        summary="Angular UI → ASP.NET Core API → Cosmos DB (/streamId) → Service Bus Topic → Azure Function Worker → Azure SQL (Read Model)"
       %}
     </div>
 
